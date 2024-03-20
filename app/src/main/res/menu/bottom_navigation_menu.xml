@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="Home"
+        android:id="@+id/Home"
+        android:icon="@drawable/ic_house_24"/>
+    <item
+        android:title="Groups"
+        android:id="@+id/Groups"
+        android:icon="@drawable/ic_group_24"/>
+    <item
+        android:title="Add Group Expense"
+        android:id="@+id/AddGroupExpense"
+        android:icon="@drawable/ic_add_circle_24"/>
+    <item
+        android:title="History"
+        android:id="@+id/History"
+        android:icon="@drawable/ic_history_24"/>
+    <item
+        android:title="Account"
+        android:id="@+id/Account"
+        android:icon="@drawable/ic_account_circle_24"/>
+</menu>

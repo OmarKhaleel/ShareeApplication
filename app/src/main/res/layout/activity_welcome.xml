@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Welcome">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="650dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/friends_holding_hands_chess_board"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="450dp"
+        android:src="@drawable/bottom_circle" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:src="@drawable/sharee"
+            android:layout_gravity="center"
+            android:layout_marginTop="450dp"
+            android:layout_marginBottom="24dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:weightSum="2"
+            android:layout_marginHorizontal="24dp"
+            android:layout_marginBottom="8dp">
+
+            <Button
+                android:id="@+id/SignInBTN"
+                android:layout_width="0dp"
+                android:layout_height="55dp"
+                android:text="Sign In"
+                android:layout_marginEnd="16dp"
+                android:layout_weight="1"
+                style="@style/FirstButtonStyle"
+                android:textAllCaps="false"/>
+
+            <Button
+                android:id="@+id/SignUpBTN"
+                android:layout_width="0dp"
+                android:layout_height="55dp"
+                android:text="Get Started"
+                android:layout_weight="1"
+                style="@style/SecondButtonStyle"
+                android:textAllCaps="false"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
